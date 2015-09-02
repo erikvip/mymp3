@@ -1,1 +1,14 @@
-include plain.html
+
+doctype html
+html(ng-app="mymp3")
+	head
+		title MyMP3
+		block scripts
+			script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js')
+			script(src='/js/search.js')
+	body
+		block header
+			block search
+				include search.html
+		block content
+		block foot

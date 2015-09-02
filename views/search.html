@@ -1,0 +1,13 @@
+<div ng-controller="SearchController">
+	<input type="text" ng-model="searchQuery" placeholder="Search by Artist, Album, Track, or Youtube Link" />
+	<a ng-click="doSearch()">Search</a>
+	<ul id="artistResults" style="float: left; width: 20%;">
+		<li ng-show="parseInt(artistCount)">Total: {{ artistCount }}</li>
+		<li ng-repeat="artist in artists">{{ artist.name }}</li>
+	</ul>
+
+	<ul id="releaseResults" style="float: left; width: 40%;">
+		<li ng-show="releaseData">Total: {{ releaseCount }}</li>
+		<li ng-repeat="release in releases">{{ release.title }} by {{release["artist-credit"][0].artist.name}} ({{ release["track-count"] }} Tracks {{release.country}} - {{release.date}} )</li>
+	</ul>
+</div>
