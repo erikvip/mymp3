@@ -1,0 +1,20 @@
+{
+  "name": "mymp3",
+  "version": "0.1.0",
+  "description": "A music discovery tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git", 
+    "url":
+  },
+  "author": "Erik Phillips <erikvip@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "jade": "^1.11.0"
+  }
+}
