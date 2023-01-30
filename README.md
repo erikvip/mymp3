@@ -1,7 +1,10 @@
 # mymp3
-Music discovery tool
 
-**This project is an early alpha & under active development, it is not ready for use**
+Don't much like Angular. Archiving repository,,,
+
+<del>Music discovery tool
+
+~~**This project is an early alpha & under active development, it is not ready for use**~~
 
 ## Purpose
 At this time, the main purpose of this project is a learning exercise for myself.  It is a place for me to learn AngularJS, NodeJS and NoSQL database design.  I hope it will eventually be a useful tool for finding new music, but it may never get past the playground stage. 
@@ -19,4 +22,4 @@ At this time, the main purpose of this project is a learning exercise for myself
 - MPD Support
 
 ## Build Example
-   > enclose --config enclose-config.json index.js
+   > enclose --config enclose-config.json index.js</del>
